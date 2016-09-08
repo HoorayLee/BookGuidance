@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:gravity="left" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/touxiang" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:src="@android:drawable/ic_menu_search" />
+
+
+ 
+            
+      <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+          <Button
+              android:id="@+id/handle"
+              style="@drawable/f3b609d51a1faecc35a9ac01799d508b"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="菜单" />
+        
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/f3b609d51a1faecc35a9ac01799d508b"
+            android:orientation="vertical" >
+
+            <Button
+       android:id="@+id/handle1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="150dp"
+       android:text="借阅记录"
+       android:clickable="true" />
+
+    	<Button
+    	    android:id="@+id/handle2"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@+id/button3"
+    	    android:layout_marginTop="10dp"
+    	    android:text="预约记录" 
+    	    android:clickable="true"/>
+
+    <Button
+         	  android:id="@+id/handle3"
+       	   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    
+        android:layout_below="@+id/button2"
+       
+        android:text="搜索记录" 
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/handle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   		android:clickable="true"
+        android:layout_below="@+id/button4"
+       
+        android:text="意见反馈" />
+
+    <Button
+        android:id="@+id/handle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="设置" />
+      
+        </LinearLayout>
+    </SlidingDrawer>
+
+    
+
+</RelativeLayout>
+
+  

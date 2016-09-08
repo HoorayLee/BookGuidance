@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">book1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_searchbook">Searchbook</string>
+    <string name="title_activity_reserve_his">ReserveHis</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_changecode">Changecode</string>
+    <string name="title_activity_chang_code">ChangCode</string>
+    <string name="title_activity_change_phone">ChangePhone</string>
+    <string name="title_activity_search_rec">SearchRec</string>
+    <string name="title_activity_way">Way</string>
+    <string name="title_activity_testnoti">Testnoti</string>
+
+</resources>
